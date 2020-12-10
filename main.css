@@ -12,12 +12,23 @@ body {
 background-color: cornflowerblue ;      
   }
     
-    
+    button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-shadow: 0 5px 15px -4px #1e0e4b;
+
+
+    }
     
     button:hover {
         border: 2px solid;
         border-color: rgb(133, 106, 255);
-        color: white;
         box-shadow: 0 5px 15px -4px #1e0e4b;
         transform: translateY(-11px);
         cursor: pointer;
